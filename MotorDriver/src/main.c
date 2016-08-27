@@ -294,42 +294,49 @@ void polkrokowy_prawy_przod(int pozycja,int czas_m) {
 		krok1p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 1:
 		krok2p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 2:
 		krok3p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 3:
 		krok4p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 4:
 		krok5p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 5:
 		krok6p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 6:
 		krok7p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 7:
 		krok8p;
 		cnt_p++;
 		if(cnt_p == 400) {cnt_p = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
 		}
 		if(cnt_p == 400) {cnt_p = 0;}
 }
@@ -342,42 +349,49 @@ void polkrokowy_lewy_przod(int pozycja, int czas_m) {
 		krok1l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 1:
 		krok2l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 2:
 		krok3l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 3:
 		krok4l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 4:
 		krok5l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 5:
 		krok6l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 6:
 		krok7l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
+		//no break
 		case 7:
 		krok8l;
 		cnt_l++;
 		if(cnt_l == 400) {cnt_l = 0;}
-			czekaj(czas_m);
+		czekaj(czas_m);
 		}
 		if(cnt_p == 400) {cnt_p = 0;}
 }
@@ -390,42 +404,49 @@ void polkrokowy_prawy_tyl(int pozycja, int czas_m) {
 			krok1p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 7:
 			krok8p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 6:
 			krok7p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 5:
 			krok6p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 4:
 			krok5p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 3:
 			krok4p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 2:
 			krok3p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 1:
 			krok2p;
 			cnt_p--;
 			if(cnt_p == 0) {cnt_p = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
 			}
 			if(cnt_p == 0) {cnt_p = 400;}
 	}
@@ -438,42 +459,49 @@ void polkrokowy_lewy_tyl(int pozycja, int czas_m) {
 			krok1l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 7:
 			krok8l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 6:
 			krok7l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 5:
 			krok6l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 4:
 			krok5l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 3:
 			krok4l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 2:
 			krok3l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
+			//no break
 			case 1:
 			krok2l;
 			cnt_l--;
 			if(cnt_l == 0) {cnt_l = 400;}
-				czekaj(czas_m);
+			czekaj(czas_m);
 			}
 			if(cnt_l == 0) {cnt_l = 400;}
 	}

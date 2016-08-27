@@ -6,7 +6,6 @@
 #include <math.h>  //include libm
 
 #include "matrix.h"
-
 #include "mpu6050.h"
 //
 //#define UART_BAUD_RATE 57600
