@@ -5,13 +5,13 @@
 #include <util/delay.h>
 #include <math.h>  //include libm
 
-#include "matrix/matrix.h"
+#include "matrix.h"
 
-#include "mpu6050/mpu6050.h"
+#include "mpu6050.h"
 //
 //#define UART_BAUD_RATE 57600
 //#include "uart/uart.h"
-#include "LCD/lcd44780.h"
+#include "lcd44780.h"
 
 volatile uint8_t pwm1;
 volatile int licznik;

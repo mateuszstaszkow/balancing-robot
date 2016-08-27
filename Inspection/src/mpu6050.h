@@ -7,7 +7,7 @@
 #include "mpu6050registers.h"
 
 //ustawienia i2c
-#define MPU6050_I2CFLEURYPATH "../i2chw/i2cmaster.h"
+#define MPU6050_I2CFLEURYPATH "i2cmaster.h"
 #define MPU6050_I2CINIT 1
 
 //definicje
