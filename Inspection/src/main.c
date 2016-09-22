@@ -4,6 +4,7 @@
 #include <avr/pgmspace.h>
 #include <util/delay.h>
 #include <math.h>  //include libm
+#include <avr/iom168.h>
 
 #include "matrix.h"
 
@@ -17,7 +18,6 @@ volatile uint8_t pwm1;
 volatile int licznik;
 
 int main(void) {
-
 	//programowy pwm
 	DDRC |= (1<<PC0)|(1<<PC1);
 	PORTC |= (1<<PC0);
